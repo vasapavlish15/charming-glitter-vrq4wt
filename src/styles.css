@@ -1,0 +1,168 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e0e0; /* Сірий фон */
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000; /* Чорний колір тексту */
+}
+
+.cart a {
+  font-size: 1.5em;
+}
+
+.home-page {
+  width: 100%;
+  text-align: center;
+  background-color: #4caf50; /* Зелений фон, як на зображенні */
+  padding: 20px;
+}
+
+.content {
+  max-width: 800px; /* Максимальна ширина контенту */
+  margin: 0 auto; /* Центрування контенту */
+}
+
+.content img {
+  width: 100%; /* Адаптуємо зображення до ширини */
+  border-radius: 10px; /* Закруглення країв */
+}
+
+.content h2 {
+  margin-top: 20px; /* Відстань між зображенням і заголовком */
+  font-size: 2em; /* Розмір заголовка */
+  color: white; /* Колір заголовка */
+}
+
+.content p {
+  font-size: 1.2em; /* Розмір підзаголовка */
+  color: white; /* Колір підзаголовка */
+}
+
+.product-card {
+  border: 1px solid #ddd; /* Рамка картки */
+  border-radius: 10px; /* Закруглення країв */
+  padding: 10px;
+  text-align: center;
+  margin: 10px; /* Відстань між картками */
+  background-color: #fff; /* Білий фон картки */
+}
+
+.product-card img {
+  width: 100%; /* Адаптуємо зображення до ширини картки */
+  border-radius: 10px; /* Закруглення країв зображення */
+}
+
+.product-card h3 {
+  margin: 10px 0; /* Відстань між заголовком та описом */
+}
+
+.product-card p {
+  margin: 5px 0; /* Відстань між абзацами */
+}
+
+.price {
+  font-weight: bold; /* Виділення ціни */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* Дозволяє переносити картки на новий ряд */
+  justify-content: center; /* Центрування карток */
+  padding: 20px; /* Відступи зсередини */
+}
+
+.products-page {
+  padding: 20px; /* Відступи */
+  background-color: #f8f8f8; /* Світло-сірий фон */
+  text-align: center; /* Центрування заголовка */
+}
+
+.products-page h2 {
+  margin-bottom: 20px; /* Відстань між заголовком і списком товарів */
+}
+
+.cart-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий фон */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative; /* Для позиціювання кнопки закриття */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.modal-buttons {
+  margin-top: 20px; /* Відстань між елементами кнопок */
+}
+
+.modal-buttons button {
+  margin: 0 10px; /* Відстань між кнопками */
+}
+
+.checkout-page {
+  padding: 20px; /* Відступи */
+  background-color: #f8f8f8; /* Світло-сірий фон */
+  text-align: center; /* Центрування заголовка */
+}
+
+.order-details {
+  margin-bottom: 20px; /* Відстань між деталями замовлення */
+}
+
+.order-item {
+  display: flex; /* Вирівнюємо зображення та інформацію про товар */
+  align-items: center;
+  margin: 10px 0; /* Відстань між товарами */
+}
+
+.order-item img {
+  width: 50px; /* Ширина зображення товару */
+  height: auto; /* Автоматична висота */
+  margin-right: 10px; /* Відстань між зображенням та інформацією */
+}
+
+.contact-info,
+.delivery-info {
+  margin-bottom: 20px; /* Відстань між формами */
+}
+
+.checkout-buttons {
+  margin-top: 20px; /* Відстань між кнопками */
+}
+
+.checkout-buttons button {
+  margin: 0 10px; /* Відстань між кнопками */
+}
